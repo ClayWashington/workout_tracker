@@ -1,0 +1,55 @@
+* {
+  /* Remove default margins and padding */
+  margin:0;
+  padding:0;  
+}
+
+#wrapper {
+  background-color: #FFF;
+ /* margin-top:5em; */
+}
+
+#header {
+  height: 1.5em;
+  background-color: #000;
+}
+
+#header li {
+  list-style-type:none;
+  float:left;    
+}
+
+#header a,
+#header a:link,
+#header a:visited {
+  text-decoration:none;
+  font-size:70%;
+  background-color:black;
+  color:white;
+  display:block;
+  height:2em;
+  width:8em;  
+  text-align:right;
+  /* Must equal height of links */
+  line-height:2em;
+  outline-style:none;
+}
+
+#header a:hover,
+#header a:active {
+  color:yellow;
+}
+
+#main {
+  text-align:center;
+  margin-top:5em;
+  color: black;
+}
+
+h1 {
+  margin-top:5em;
+}
+
+
+
+
